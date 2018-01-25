@@ -1,0 +1,32 @@
+{
+  "name": "open-graph",
+  "version": "1.0.0",
+  "description":
+    "A tiny Node.js microservice to scrape open graph data with joy.",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "nodemon --exec \"npm start\" -e \"js\"",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lafrenchtech/open-graph.git"
+  },
+  "author": "Alain Armand (http://twitter.com/@_idkjs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lafrenchtech/open-graph/issues"
+  },
+  "homepage": "https://github.com/lafrenchtech/open-graph#readme",
+  "dependencies": {
+    "got": "^8.0.3",
+    "memory-cache": "^0.2.0",
+    "metascraper": "^3.6.0",
+    "micro": "^9.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11",
+    "standard": "^10.0.3"
+  }
+}
