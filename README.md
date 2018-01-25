@@ -1,6 +1,8 @@
 # `@lafrenchtech/open-graph`
 
-A tiny Node.js microservice to scrape open graph data with joy.
+Metadata endpoint for https://lafrenchtech.github.io.
+
+Live: [lafrenchtech-metadata.now.sh]
 
 Running this microservice you won't need a backend solely to get some meta information about links your users submit. Press the deploy button below and show your users what the links they're clicking on contain!
 

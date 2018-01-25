@@ -1,9 +1,9 @@
 {
   "name": "open-graph",
   "version": "1.0.0",
-  "description":
-    "A tiny Node.js microservice to scrape open graph data with joy.",
+  "description": "Metadata endpoint for https://lafrenchtech.github.io.",
   "main": "index.js",
+  "keywords": ["metadata", "now", "nextjs", "micro", "lafrenchtech"],
   "scripts": {
     "start": "micro",
     "dev": "nodemon --exec \"npm start\" -e \"js\"",
